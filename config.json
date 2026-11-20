@@ -1,15 +1,24 @@
 {
-  "name": "自建IPTV直播源(192.168.x/移动网络)",
+  "name": "自建IPTV直播源(含EPG)",
   "wallpaper": "",
   "spider": "",
   "sites": [],
   "lives": [
     {
-      "name": "IPTV直播(清洗版)",
+      "name": "IPTV直播(EPG适配)",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live_epg.txt",
+      "epg": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml",
+      "playerType": 0,
+      "logo": "",
+      "ua": ""
+    },
+    {
+      "name": "IPTV直播(原名)",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live.txt",
+      "epg": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml",
       "playerType": 0,
-      "epg": "",
       "logo": "",
       "ua": ""
     },
@@ -17,8 +26,8 @@
       "name": "IPTV直播(全量)",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live_full.txt",
+      "epg": "https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/e.xml",
       "playerType": 0,
-      "epg": "",
       "logo": "",
       "ua": ""
     }
