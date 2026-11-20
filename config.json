@@ -1,5 +1,5 @@
 {
-  "name": "自建IPTV直播源",
+  "name": "自建IPTV直播源(192.168.x/移动网络)",
   "wallpaper": "",
   "spider": "",
   "sites": [],
@@ -7,7 +7,7 @@
     {
       "name": "IPTV直播(清洗版)",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live.txt",
       "playerType": 0,
       "epg": "",
       "logo": "",
@@ -16,7 +16,7 @@
     {
       "name": "IPTV直播(全量)",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live_full.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live_full.txt",
       "playerType": 0,
       "epg": "",
       "logo": "",
