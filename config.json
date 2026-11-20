@@ -1,0 +1,28 @@
+{
+  "name": "自建IPTV直播源",
+  "wallpaper": "",
+  "spider": "",
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPTV直播(清洗版)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live.txt",
+      "playerType": 0,
+      "epg": "",
+      "logo": "",
+      "ua": ""
+    },
+    {
+      "name": "IPTV直播(全量)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/X-Z-Y-xzy/tvbox-live/main/live_full.txt",
+      "playerType": 0,
+      "epg": "",
+      "logo": "",
+      "ua": ""
+    }
+  ],
+  "parses": [],
+  "flags": []
+}
